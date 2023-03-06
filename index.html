@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>One piece en sevilen karakter</title>
+</head>
+
+<body>
+
+    <form id="onepiece">
+
+        <div class="container">
+            <label for="luffy"><img src="./luffy.png" id="l"></label>
+            <input type="radio" id="luffy" name="vote" value="1">
+
+
+
+            <label for="zoro"><img src="./zoro.png" id="z"></label>
+            <input type="radio" id="zoro" name="vote" value="2">
+
+            <label for="shanks"><img src="./shanks.png" id="s"></label>
+            <input type="radio" id="shanks" name="vote" value="3">
+
+        </div>
+
+        <div class="ttn">
+        <button class="btn" type="submit">Result</button>
+        </div>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
